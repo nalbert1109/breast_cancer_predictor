@@ -38,29 +38,29 @@ Having worked at a biotech company that worked towards creating drugs to treat c
 ## Installation
 
 1. Clone the repository:
-   ...bash
+   ...console
    git clone https://github.com/nalbert1109/breast_cancer_predictor.git
    ...
 2. Enter project directory:
-   ...bash
+   ...console
    cd breast_cancer_predictor
    ...
 3. Create a virtual environment:
-   ...bash
+   ...console
    python -m venv venv
    ...
 4. Activate the virtual environment:
-   ...bash
+   ...console
    activate //on Windows, not sure what it is on MacOS/Linux
    ...
 5. Install the required packages into the virtual environment:
-   ...bash
+   ...console
    pip install -r requirements.txt
    ...
 ## Usage
 
 Run the application:
-...bash
+...console
 python main.py
 ...
 
