@@ -38,31 +38,31 @@ Having worked at a biotech company that worked towards creating drugs to treat c
 ## Installation
 
 1. Clone the repository:
-   ...console
+   ```bash
    git clone https://github.com/nalbert1109/breast_cancer_predictor.git
-   ...
+   ```
 2. Enter project directory:
-   ...console
+   ```bash
    cd breast_cancer_predictor
-   ...
+   ```
 3. Create a virtual environment:
-   ...console
+   ```bash
    python -m venv venv
-   ...
+   ```
 4. Activate the virtual environment:
-   ...console
+   ```bash
    activate //on Windows, not sure what it is on MacOS/Linux
-   ...
+   ```
 5. Install the required packages into the virtual environment:
-   ...console
+   ```bash
    pip install -r requirements.txt
-   ...
+   ```
 ## Usage
 
 Run the application:
-...console
+```bash
 python main.py
-...
+```
 
 main.py imports methods from the src folder which contains data_processing.py, model.py, visualize.py
 It will load the breast cancer data from sklearn, so you do not have to read a csv file. It will process the data, train it, and graph a heatmap(confusion matrix) of each of the three different models for you to visualize. The light blue square is a True Positive while the dark blue is a True Negative. An additional output will be the accuracy. The model is automatically saved and loaded as you will see in the methods of model.py.
