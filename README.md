@@ -51,7 +51,7 @@ Having worked at a biotech company that worked towards creating drugs to treat c
    ```
 4. Activate the virtual environment:
    ```bash
-   activate //on Windows, not sure what it is on MacOS/Linux
+   .\[venv name here]\Scripts\Activate //on Powershell, Look it up if your on MacOS/Linux
    ```
 5. Install the required packages into the virtual environment:
    ```bash
