@@ -40,5 +40,5 @@ def save_model(model,model_name):
 def load_model(model_name):
     
     model = joblib.load(f'models/{model_name}.pkl')
-    print(f'{model_name} saved sucessfully.')
+    print(f'{model_name} loaded sucessfully.')
     return model
